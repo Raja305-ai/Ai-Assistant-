@@ -5,8 +5,8 @@ export const site = {
     "Security Operations Professional | CCTV Operator | Security Supervisor | Safety & Operations | AI Productivity",
   shortBio:
     "Security operations professional with experience across security monitoring, CCTV operations, control room activities, incident reporting, access control, emergency response and operational support — with a growing interest in using AI and modern tools to improve day-to-day reporting and productivity.",
-  email: "[ADD EMAIL]",
-  linkedin: "[ADD LINKEDIN]",
+  email: "sraza2973@gmail.com",
+  linkedin: "https://www.linkedin.com/in/tallat-hussain-65962a245",
   domain: process.env.NEXT_PUBLIC_SITE_URL || "https://tallathussain.com",
   locationNote: "Available for security operations, control room and safety-related roles.",
 };
