@@ -38,7 +38,7 @@ export default function Contact() {
                 {emailReady ? (
                   <a
                     href={`mailto:${site.email}`}
-                    className="focus-ring underline decoration-paper/30 underline-offset-4 hover:decoration-paper"
+                    className="focus-ring mt-1 inline-block rounded-sm bg-paper px-5 py-2.5 text-sm font-medium text-charcoal transition-colors hover:bg-paper/90"
                   >
                     {site.email}
                   </a>
@@ -53,11 +53,11 @@ export default function Contact() {
                 {!site.linkedin.startsWith("[") ? (
                   <a
                     href={site.linkedin}
-                    className="focus-ring underline decoration-paper/30 underline-offset-4 hover:decoration-paper"
+                    className="focus-ring mt-1 inline-block rounded-sm border border-paper/30 px-5 py-2.5 text-sm font-medium text-paper transition-colors hover:border-paper/60"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {site.linkedin}
+                    View LinkedIn profile
                   </a>
                 ) : (
                   <span className="text-paper/60">{site.linkedin}</span>
