@@ -21,31 +21,36 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    title: "[ADD JOB TITLE]",
-    employer: "[ADD EMPLOYER]",
-    dates: "[ADD EMPLOYMENT DATES]",
+    title: "Security Supervisor",
+    employer: "Expo City Dubai, UAE",
+    dates: "11/2023 – Present",
     summary:
-      "Responsible for day-to-day security operations, CCTV monitoring and incident response within a controlled operational environment.",
-    duties: [
-      "CCTV and control room monitoring across multiple zones",
-      "Access control and visitor / contractor management",
-      "Incident detection, escalation and written incident reporting",
-      "Emergency and fire alarm response procedures",
-      "Coordination with site and shift supervisors",
-    ],
+      "As Security Supervisor at Expo City Dubai, oversees the deployment of security personnel and enforcement of safety protocols across major site events. Responsible for monitoring surveillance systems, coordinating emergency response efforts, and liaising directly with local authorities to resolve security challenges as they arise. Ensures ongoing compliance with security policies and regulations through regular assessments, and maintains clear records while keeping abreast of evolving security trends and best practices.",
+    duties: [],
   },
   {
-    title: "[ADD JOB TITLE]",
-    employer: "[ADD EMPLOYER]",
-    dates: "[ADD EMPLOYMENT DATES]",
+    title: "Security System Operator (CCTV Operator)",
+    employer: "Expo City Dubai | Expo 2020 Dubai, UAE",
+    dates: "07/2021 – 11/2023",
     summary:
-      "Operational support role covering security supervision, parking operations and daily reporting.",
-    duties: [
-      "Security supervision across assigned shifts",
-      "Parking and traffic monitoring operations",
-      "Daily operational reporting and documentation",
-      "Support for safety awareness and hazard reporting",
-    ],
+      "Operated CCTV and access control systems at Expo 2020 Dubai, monitoring and authorizing the movement of employees, visitors and contractors to maintain site security. Acted as first point of contact with police and fire services during emergencies, including fire incidents and unauthorized-access situations. Prepared daily activity reports documenting irregularities, equipment or property damage, theft and unusual occurrences, and maintained accurate records for fire alarm responses and daily building operations.",
+    duties: [],
+  },
+  {
+    title: "Security Administration",
+    employer: "Expo 2020, Dubai, UAE",
+    dates: "05/2019 – 07/2021",
+    summary:
+      "Provided front-line customer service within the security administration team at Expo 2020, welcoming visitors and managing the issuance of day passes and employee credentials in line with management instructions. Facilitated smooth, authorized access during high-traffic special events and maintained accurate records of uniforms and food cards, supporting staff and visitors with card-related issues throughout.",
+    duties: [],
+  },
+  {
+    title: "Airport Security Officer",
+    employer: "DXB – Dubai International Airport (USA Flights Handler)",
+    dates: "05/2018 – 05/2019",
+    summary:
+      "Served as an Airport Security Officer at Dubai International Airport supporting USA-bound flight operations, maintaining accurate entry and exit records and monitoring access control points to prevent unauthorized entry. Followed client security procedures and standard operating procedures consistently across shifts and varying weather conditions, and carried out security checks on duty-free materials and catering items prior to dispatch to aircraft.",
+    duties: [],
   },
 ];
 
